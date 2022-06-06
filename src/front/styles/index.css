@@ -1,3 +1,66 @@
 /* 
     General Styles used on every website (Don't Repeat Yourself)
 */
+.container-login {
+  margin: 0 auto;
+  width: 500px;
+}
+.button-navbar {
+  float: right;
+}
+.button-enter:hover {
+  background-color: rgb(51, 148, 116);
+  border-color: rgb(51, 148, 116);
+  color: aquamarine;
+}
+.errors-login {
+  color: rgb(255, 190, 92);
+}
+.container-signup {
+  margin: 0 auto;
+  width: 500px;
+}
+.button-enter:hover {
+  background-color: rgb(51, 148, 116);
+  border-color: rgb(51, 148, 116);
+  color: aquamarine;
+}
+.errors-signup {
+  color: rgb(255, 190, 92);
+}
+
+ul li .button-navbar {
+  margin: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: none;
+  box-decoration-break: none;
+}
+.navbar-toggler {
+  float: right;
+  color: #f0e4e4;
+  background-color: #d47c8f;
+}
+
+.navbar-collapse {
+  display: inline-flex;
+  justify-content: end;
+}
+.navbar-nav {
+  display: inline-flex;
+  justify-content: end;
+}
+body {
+  background-image: url("https://adnmusical.com/wp-content/uploads/2021/04/romeo-santos.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+}
+.link-4geeks {
+  color: #ff9fa8;
+}
+.button-enter {
+  background-color: aquamarine;
+  border-color: aquamarine;
+  color: green;
+}
